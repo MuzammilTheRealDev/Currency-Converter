@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,600;1,300&family=Poppins:wght@400;600&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    text-decoration: none;
+}
+body{
+    background-color: #555;
+    background: linear-gradient( 18deg,black,red , black,orange,black);
+background-repeat: no-repeat;
+}
+nav{
+    padding: 0 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+}
+.link{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10vw;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1{
+    margin-left: 50px;
+}
+footer{
+    margin-top: 20px;
+    background-color: black;
+    text-align: center;
+    height: 10vh;
+    padding-top: 3vh;
+}
+.container{
+    min-height: 77vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.container h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px ;
+}
+.container input,select,option{
+    color: #000;
+    margin-bottom: 24px ;
+    
+}
+.container input,select{
+    background: linear-gradient( 18deg,white, gray);
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+}
+.container form{
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.container button{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(40, 182, 40);
+    background: linear-gradient( 12deg,rgb(77, 244, 77),rgba(0, 128, 0, 0.654),#569618);
+
+    width: 20vw;
+    cursor: pointer;
+}
+
+.output {
+    display: none;
+}
+
+.output table {
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.output table th{
+    padding: 3px;
+}
+
+
+

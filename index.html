@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="pngwing.com.png" height="70vh"  alt="">
+            <h3>Currency Convertor</h3>
+        </div>
+        <div class="link">
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About Us</a>
+            <a href="#">Help</a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <h1>Choose a currency to convert</h1>
+        <!-- action="/action.php" method="get" -->
+        <form >
+            <!-- <label for="quantity"></label> -->
+            <h2>Choose a quantity: </h2>
+            <!-- min="1" max="100" -->
+            <input type="number" name="quantity" min="0">
+            <!-- <label for="currency"> </label> -->
+            <h2>Choose a currency:</h2>
+            <select name="currency">
+                <option value="PKR">Pakistani Rupee</option>
+                <option value="INR">Indian Rupee</option>
+                <option value="USD">US Dollar</option>
+                <option value="EUR">Euro</option>
+            </select>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+
+        <div class="output">
+            <h2>Here is your converted values in different currencies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th>Code</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+
+    
+
+
+
+
+
+
+<footer>
+    Copyright &copy; All rights are reserved.
+</footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
